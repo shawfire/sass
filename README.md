@@ -1,5 +1,6 @@
 # SASS
-## SASS features explained.
+
+## SASS installation and command line basics explained.
 
 *Make sure you have ruby (https://www.ruby-lang.org/en/) and gem (https://rubygems.org/) installed.*
 + To install sass:
@@ -33,7 +34,7 @@ sass --update sass:css_bin
 sass --watch sass:css_bin
 ```
 
-## SASS variable:
+## SASS variables:
 
 Sass variables are declared with a $ character (as apposed to the @ character for less) and are defined like CSS variables:
 
@@ -43,3 +44,15 @@ Sass variables are declared with a $ character (as apposed to the @ character fo
 4. booleans ```$myBool: false;```
 5. nulls    ```$myEmptyVar: null;```
 6. lists    ```myList: 2px 4px 6px 8px; myList: 1px solid black;```
+
+## Defining nested rules:
+
+## Working with mixins:
+
+## Using operators:
+
+## Defining mixins with auguments:
+
+## Using output-style formatting:
+
+## Importing external files:

@@ -37,7 +37,7 @@ sass --watch sass:css_bin
 
 Sass variables are declared with a $ character (as apposed to the @ character for less) and are defined like CSS variables:
 
-1. numbers  $myNum: 18px; $myNum: 1.5em; $myNum: .25in; $myNum: 1.25rem;
+1. numbers  '''$myNum: 18px; $myNum: 1.5em; $myNum: .25in; $myNum: 1.25rem;'''
 2. strings  $myString: "text of a string..."
 3. colors   $myColor: #00f; $myColor: blue;
 4. booleans $myBool: false;

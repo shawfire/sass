@@ -34,8 +34,7 @@ sass --update sass:sass_bin
 sass --watch sass:sass_bin
 ```
 
-+ Test your Sass examples on a simple web server:
-[reference:](http://sweetme.at/2013/08/28/simple-local-http-server-with-ruby/)
++ Test your Sass examples on a simple web server ([reference](http://sweetme.at/2013/08/28/simple-local-http-server-with-ruby/)):
 ```
 ruby -run -e httpd . -p 8000
 http://localhost:8000

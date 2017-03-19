@@ -52,6 +52,15 @@ Sass variables are declared with a $ character (as apposed to the @ character fo
 6. lists    ```myList: 2px 4px 6px 8px; myList: 1px solid black;```
 
 ## Defining nested rules:
+```
+a {
+  text-decoration: underline;
+  color: mediumgray;
+  &:hover: {
+    color: $orange;
+  }
+}
+```
 
 ## Working with mixins:
 
@@ -62,6 +71,15 @@ Sass variables are declared with a $ character (as apposed to the @ character fo
 ## Using output-style formatting:
 
 ## Importing external files:
+
+## Use in combination with sass
++ [css3please](http://css3please.com/)
++ [compass](http://compass-style.org/)
++ [susy](http://susy.oddbird.net/)
++ [google fonts](https://fonts.google.com/)
++ [font awesome](http://fontawesome.io/)
++ [glyph icons](http://glyphicons.com/)
++ [Font sizing with rem](https://snook.ca/archives/html_and_css/font-size-with-rem)
 
 ## Other options:
 + [Stylus](stylus-lang.com)

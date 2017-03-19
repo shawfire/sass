@@ -1,0 +1,10 @@
+$orange         : #BD3613;
+$mediumgray     : #536870;
+
+a {
+  text-decoration: underline;
+  color: $mediumgray;
+  &:hover {
+    color: $orange;
+  }
+}

@@ -61,8 +61,8 @@ a {
   color: $mediumgray;
   &:hover {
     color: $orange;
-  }
-}
+  } //hover
+} //a
 ```
 
 ## Working with mixins:

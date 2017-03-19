@@ -53,10 +53,13 @@ Sass variables are declared with a $ character (as apposed to the @ character fo
 
 ## Defining nested rules:
 ```
+$orange         : #BD3613;
+$mediumgray     : #536870;
+
 a {
   text-decoration: underline;
-  color: mediumgray;
-  &:hover: {
+  color: $mediumgray;
+  &:hover {
     color: $orange;
   }
 }

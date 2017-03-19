@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAGA,CAAE;EACA,eAAe,EAAE,SAAS;EAC1B,KAAK,EAJW,OAAO;EAKvB,OAAQ;IACN,KAAK,EAPS,OAAO",
-"sources": ["../sass/Sass_Nested_rules.scss"],
-"names": [],
-"file": "Sass_Nested_rules.css"
-}

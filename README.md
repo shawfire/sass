@@ -13,25 +13,25 @@ gem install sass
 sass -?
 ```
 
-+ To generate a 'blah.css' from 'blah.scss':
++ To generate a 'Sass_Variables.css' from 'Sass_Variables.scss':
 ```
-sass --update Sass_Ex1_Variables.scss
-```
-
-+ To generate a 'my_blah.css' from 'blah.scss':
-```
-sass --update Sass_Ex1_Variables.scss:Sass_Ex1_Variables_bin.css
+sass --update Sass_Variables.scss
 ```
 
-+ To convert all the \*.scss files in the sass directory to \*.css files in the css_bin directory.
++ To generate a 'Css_from_Sass_Variables.css' from 'Sass_Variables.scss':
+```
+sass --update Sass_Variables.scss:Css_from_Sass_Variables.css
+```
+
++ To convert all the \*.scss files in the sass directory to \*.css files in the css directory.
 ```
 cd ..
-sass --update sass:sass_bin
+sass --update sass:css
 ```
 
 + Same as the above; but continue to perform sass compilations as changes are made to the scss files:
 ```
-sass --watch sass:sass_bin
+sass --watch sass:css
 ```
 
 + Test your Sass examples on a simple web server ([reference](http://sweetme.at/2013/08/28/simple-local-http-server-with-ruby/)):
